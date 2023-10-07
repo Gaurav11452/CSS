@@ -1,0 +1,220 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*Background color for whole page*/
+body {
+    background-color: #efeae4;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+/*Styling the header section*/
+header {
+    text-align: center;
+    background-color: #ff8c00;
+    padding: 20px;
+}
+
+/*Styling the main heading*/
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/*Styling h2*/
+h2 {
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/*Styling the main area*/
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Styling Lyrics Section*/
+#lyrics {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 30px;
+    /* Adding padding to the lyrics section to make it more readable */
+}
+
+/*Styling all paragraph in lyrics section*/
+#lyrics p {
+    padding: 1.2rem;
+}
+
+/*First Paragraph*/
+#lyrics p:nth-child(1) {
+    font-weight: bold;
+}
+
+/*Second Paragraph*/
+#lyrics p:nth-child(2) {
+    font-style: italic;
+}
+
+/*Third Paragraph*/
+#lyrics p:nth-child(3) {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    /* Make it even more direct with uppercase text */
+}
+
+/*Fourth Paragraph*/
+#lyrics p:nth-child(4) {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Fifth Paragraph*/
+#lyrics p:nth-child(5) {
+    font-weight: bold;
+}
+
+/*Sixth Paragraph*/
+#lyrics p:nth-child(6) {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    /* Make it even more direct with uppercase text */
+}
+
+/*Seventh Paragraph*/
+#lyrics p:nth-child(7) {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Ninth Paragraph*/
+#lyrics p:nth-child(9) {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    /* Make it even more direct with uppercase text */
+}
+
+/*Tenth Paragraph*/
+#lyrics p:nth-child(10) {
+    font-weight: bold;
+}
+
+/*Eleventh Paragraph*/
+#lyrics p:nth-child(11) {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Applying hover effects on some paragraph*/
+#lyrics p:nth-child(3):hover,
+#lyrics p:nth-child(6):hover,
+#lyrics p:nth-child(9):hover {
+    font-size: 1.3rem;
+    /* Increase font size on hover */
+}
+
+/*Applying css on chorus class*/
+.chorus {
+    font-family: 'Young Serif', serif;
+    color: #eb6dac;
+    /*Setting the color of text to the shade of pink*/
+    background-color: rgba(34, 60, 76, 1);
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    /*increasing font size*/
+}
+
+/*Applying css on plain1 class*/
+.plain1 {
+    font-weight: normal;
+    /* Remove bold for a more casual tone */
+    font-style: italic;
+    /*Add italic font*/
+    color: #333;
+    /* Dark color for neutral tone */
+
+}
+
+/*Applying css on plain class*/
+.plain {
+    font-weight: normal;
+    /*Keep normal font*/
+    color: #333;
+    /* Dark color for a neutral tone */
+
+}
+
+/*Applying css on emotional class*/
+.emotional {
+    color: #4d6d83;
+    /* A color that conveys emotion */
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    /*Increasing font size*/
+
+}
+
+/*Applying css on gloomy class*/
+.gloomy {
+    font-weight: bold;
+    color: #FFA500;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+
+}
+
+/*Applying css on span class wish*/
+.wish {
+    color: #c0a17c;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Applying css on span class beg*/
+.beg {
+    font-family: Arial, sans-serif;
+    /* Choose a font family */
+    font-size: 24px;
+    /* Set the font size */
+    color: #936f6f;
+    /* Set the text color */
+    text-decoration: underline;
+    /* Add an underline */
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+}
+span{
+    font-size: 1.8rem;
+}
+/*Applying css on span class wish*/
+.wish{
+    color: #673e8e;
+}
+/*Applying css on span class hot*/
+.hot{
+    color:rgb(239, 13, 13) ;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+
+}
+/*Applying css on span class missed*/
+.missed{
+    color: #4d6d83;
+}
+/*Applying css on span class crazy*/
+.crazy{
+    color: #c0a17c;
+}
